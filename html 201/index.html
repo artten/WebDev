@@ -113,21 +113,86 @@
                     color: white;
                     background-color: black;
                 }
+                .upperCase {
+                    text-transform: uppercase;
+                }
+                #test {
+                   border: 15px solid red 
+                }
 
             </style>
 
-            <div class="name">
+            <div id = "test" class="name">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores eligendi modi ratione consequatur pariatur dolore enim ex cupiditate animi neque, rem ipsam rerum debitis porro ad ducimus ea voluptatum repudiandae.
 
             </div>
-            <div>
+            <div id = "test">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum, sed sequi ullam ab architecto provident atque quod magnam in sapiente nemo nam nihil! Quis quo autem voluptatem laboriosam earum!
 
             </div>
-            <div class="name">
+            <div class="name upperCase">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloremque accusantium voluptatem id, explicabo aspernatur earum tempora ratione quaerat consequuntur facilis minus beatae repellendus? Deserunt corporis voluptatibus quibusdam tempora assumenda!
 
             </div>
+
+            <h3>Format code</h3>
+            <pre>
+                some      stuff          rar &lt;b&gt;bold&lt;/b&gt;
+                second              line lol
+                <p><code> ipsum     dolor sit amet</code>
+                     consectetur adipisicing elit. 
+                     Accusantium asperiores, 
+                     repellendus quam nostrum aut 
+                     iste! At alias laborum
+                      eius quae.</p>
+            </pre>
+            <sup>&copy;</sup>2022
+
+
+            <h3>Forms</h3>
+        <form method="GET" 
+            action="anotherpage.html">
+            <input type="text">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit"> submit</button>
+        </form>
+        <br>
+
+          <form action="">
+              <input required name = "input"type="text" value="hello" placeholder="Enter name">
+              <div></div>
+              <textarea  cols="40" rows="5"> wight space 
+                  does     matter !</textarea>
+                  <div></div>
+                  <button type="button">Click</button>
+                  <div></div>
+                  <button type="reset"> resert</button>
+                  <div></div>
+                  <button type="submit">submmit</button>
+                  <div>
+                      <select name="selected" >
+                         
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="deafault-is-selected" selected="selected"> sel</option>
+                          <option value="" disabled="disabled"> dis</option>
+                      </select>
+                  </div>
+
+
+                  <h3>Embeds</h3>
+                  <iframe src="https://kalob.io/" frameborder="0"></iframe>
+                  <br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/l8Imtec4ReQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+          </form>
+
+
+          
+
+
+
+
 
                 
     </body>
