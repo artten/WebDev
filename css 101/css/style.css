@@ -1,0 +1,41 @@
+
+button {
+    margin-right: 100px;
+}
+
+#rocket {
+    text-align: center;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url("../images/rocket-backgrpund.jpg");
+}
+
+#rocket-text {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+}
+#nav {
+    height: 120px;
+    width: 1;
+    border: 1px solid black;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-right: 100px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.text {
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 45px;
+    display: inline-block;
+}
