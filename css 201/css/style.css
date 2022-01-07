@@ -1,0 +1,119 @@
+body {
+    height: 10000px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s;
+}
+
+a:hover {
+    color: brown;
+}
+
+a::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+a:hover::before {
+    height: 15px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 5px;
+    outline: 1px solid blue;
+    outline-offset: 5px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px red;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box:not(.nots) {
+    background-color: blue;
+
+}
+.box:hover {
+    background-color: red;
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    transform: rotate(43deg);
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: slideMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+}
+
+@keyframes slideMe {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+
+        left: 100%;
+    }
+    0% {
+        background-color: blue;
+    }
+}
+
+
+.second {
+    border: 2px solid red;
+    position: absolute;
+    bottom: 0;
+}
+
+.fixed {
+    position: fixed;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.gradient {
+    background-image: linear-gradient(45deg, black, yellow);
+    height: 500px;
+    width: 100%;
+}
+
