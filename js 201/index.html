@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // const {name, lastName} = person3
+        // let randomNum = Math.ceil(Math.random()*10);
+        // while(true) {
+            
+        //     console.log(randomNum);
+        //     let answer = prompt("please give me a number");
+        //     if(randomNum == answer) {
+        //         console.log("Horray");
+        //         break;
+        //     }
+        
+        // const person5 = {
+        //     "name" : "Artiom",
+        //     setName() {
+        //         let newName = prompt("new Name")
+        //         console.log(this.name = newName)
+        //     }
+        // }
+        // person5.setName()
+
+        // const hello = function() {
+        //     return "hello"
+        // }
+        // console.log(hello())
+
+        // const hello = () => {
+        //     console.log("Hi")
+        // }
+        // hello()
+
+        // const hello = () => console.log("Hi")
+        // hello()
+
+        // const hello = (name) => console.log("hi "+name)
+        // hello("harry")
+
+        // class MyClass {
+        //     setName(name) {
+        //         this.name = name
+        //     }
+        //     speak () {
+        //         console.log(`woof ${this.name}`)
+        //     }
+
+        // }
+
+        // const wo = new MyClass()
+        // wo.setName("wolf")
+        // wo.speak()
+
+        fetch('https://swapi.dev/api/people/1/')
+            .then(response => response.json())
+            .then(data => console.log(data))
+
+       
+    </script>
+</body>
+</html>
